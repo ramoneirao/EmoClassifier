@@ -159,16 +159,6 @@ print(resultados)
 
 ---
 
-## 💡 Roadmap e Melhorias Futuras
-
-*   [ ] Adicionar suporte a argumentos via linha de comando (`argparse`).
-*   [ ] Criar um script dedicado para inferência (`predict.py`).
-*   [ ] Implementar logging avançado (WandB, MLflow).
-*   [ ] Suportar outros modelos pré-treinados (RoBERTa, DistilBERT).
-*   [ ] Criar uma API simples (FastAPI) para servir o modelo.
-
----
-
 ## 🤝 Contribuição
 
 Contribuições são muito bem-vindas! Sinta-se à vontade para abrir **Issues** para relatar bugs ou sugerir melhorias, e **Pull Requests** para enviar código.
