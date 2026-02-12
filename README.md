@@ -25,7 +25,7 @@
 </p>
 
 <p align="center">
-  🚀 <em>Simples, Treinável e Extensível.</em>
+  <em>Simples, Treinável e Extensível.</em>
 </p>
 
 <br>
@@ -35,10 +35,10 @@
 O **EmoClassifier** é um pipeline robusto e eficiente para **classificação de emoções em textos em português**. Ele utiliza o poder do **BERT** (especificamente o modelo `neuralmind/bert-base-portuguese-cased`) para entender nuances linguísticas e categorizar frases em diversas emoções.
 
 Este projeto é ideal para:
-*   📊 **Análise de Sentimento e Emoção** em feedbacks de clientes.
-*   📱 **Monitoramento de Redes Sociais**.
-*   🤖 **Chatbots e Assistentes Virtuais** empáticos.
-*   🔬 **Pesquisa em NLP** (Processamento de Linguagem Natural).
+*   **Análise de Sentimento e Emoção** em feedbacks de clientes.
+*   **Monitoramento de Redes Sociais**.
+*   **Chatbots e Assistentes Virtuais** empáticos.
+*   **Pesquisa em NLP** (Processamento de Linguagem Natural).
 
 ### Emoções Suportadas
 O modelo é configurado para identificar as seguintes classes (baseado no modelo de Plutchik ou similar):
@@ -46,7 +46,7 @@ O modelo é configurado para identificar as seguintes classes (baseado no modelo
 
 ---
 
-## ✨ Funcionalidades
+## Funcionalidades
 
 *   **Fine-Tuning de BERT**: Ajuste fino de modelos Transformer pré-treinados para a tarefa específica de classificação.
 *   **Treinamento Eficiente**: Suporte a **Mixed Precision Training (AMP)** para maior velocidade e menor uso de memória.
@@ -57,22 +57,22 @@ O modelo é configurado para identificar as seguintes classes (baseado no modelo
 
 ---
 
-## 📁 Estrutura do Repositório
+## Estrutura do Repositório
 
 ```text
 EmoClassifier/
-├── data/                  # 📂 Armazene seus datasets (CSVs) aqui
-├── models/                # 💾 Modelos treinados são salvos aqui
-├── training_pipeline.py   # ⚙️ Script principal de treinamento e validação
-├── requirements.txt       # 📦 Lista de dependências do projeto
-├── .gitignore             # 🙈 Arquivos ignorados pelo Git
-├── LICENSE                # 📜 Licença de uso (MIT)
-└── README.md              # 📘 Esta documentação
+├── data/                  # Armazene seus datasets (CSVs) aqui
+├── models/                # Modelos treinados são salvos aqui
+├── training_pipeline.py   # Script principal de treinamento e validação
+├── requirements.txt       # Lista de dependências do projeto
+├── .gitignore             # Arquivos ignorados pelo Git
+├── LICENSE                # Licença de uso (MIT)
+└── README.md              # Esta documentação
 ```
 
 ---
 
-## 🚀 Instalação
+## Instalação
 
 Siga os passos abaixo para configurar o ambiente de desenvolvimento:
 
@@ -100,7 +100,7 @@ pip install -r requirements.txt
 
 ---
 
-## 🛠️ Como Usar
+## Como Usar
 
 ### 1. Preparação dos Dados
 Crie um arquivo CSV (ex: `data/meu_dataset.csv`) contendo as colunas:
